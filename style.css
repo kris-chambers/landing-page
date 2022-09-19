@@ -15,21 +15,79 @@ body {
   color: #F9FAF8;
   font-size: 24px;
   font-weight: 700;
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
   text-decoration: none;
   color: #E5E7EB;
   font-size: 18px;
-  display: flex;
 }
 
 .header-links {
   display: flex;
-  margin-right: 100px;
+  margin-right: 150px;
+}
+
+.upper-mid {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px 100px 150px;
+  }
+
+.button {
+  display: flex;
+  margin-left: 100px;
+  align-items: left;
+  flex-direction: column;
+}
+
+.awesome {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  display: flex;
+}
+
+.subtext {
+  color: #E5E7EB;
+  font-size: 18px;
+  display: flex;
+}
+
+.twia {
+  display: flex;
+  flex-direction: column;
+}
+.sign-up {
+  background-color: #3882F6;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  width: 100px;
+  font-size: 16px;
+  padding: 8px 20px;
+
+}
+
+.meerkat {
+  display: flex;
+  height: auto;
+  width: 400px;
 }
