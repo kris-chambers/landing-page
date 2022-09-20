@@ -120,16 +120,16 @@ a {
 }
 
 .katz {
-display: flex;
-justify-content: space-between;
-margin: 0 150px;
-gap: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+  gap: 50px;
 }
 
 .kat {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .katimg {
@@ -148,4 +148,28 @@ align-items: center;
   font-weight: 200;
   flex-wrap: wrap;
   text-align: center;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 100px 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainquote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.quoteattribution {
+  font-weight: 800;
+  margin-right: 30px;
+  margin-top: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
 }
